@@ -32,3 +32,34 @@
     right: 10px;
     cursor: pointer;
 }
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-item input {
+    display: none;
+}
+
+.accordion-header {
+    display: block;
+    padding: 15px;
+    background: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: white;
+}
+
+.accordion-item input:checked ~ .accordion-content {
+    max-height: 200px;
+    padding: 15px;
+}
