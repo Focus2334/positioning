@@ -1,0 +1,10 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.custom-logo-1 {
+    object-fit: cover;
+}
