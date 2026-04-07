@@ -1,12 +1,25 @@
-.logo {
+.logo-card {
     width: 100px;
     height: 100px;
     overflow: hidden;
-    object-fit: contain;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
 }
 
-.custom-logo-1 {
-    object-fit: cover;
+.logo-card img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+}
+
+.logo1 img {
+    transform: translate(-50%, -50%) scale(0.3);
+}
+
+.logo2 img {
+    transform: translate(-50%, -50%) scale(0.6);
 }
 
 .progress-block {
