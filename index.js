@@ -22,6 +22,8 @@ const interval = setInterval(() => {
         progressBar.setAttribute('data-text', 'Done ✅');
     }
 }, 300);
+
+
 openBtn.onclick = () => modal.style.display = 'flex';
 closeBtn.onclick = () => modal.style.display = 'none';
 modal.onclick = (e) => {
